@@ -28,6 +28,12 @@ I stumbled across [OneLoneCoder](https://github.com/OneLoneCoder) and I couldn't
 
 It appears that the utilization of *olc::ConsoleGameEngine* in the [javidx9](https://www.youtube.com/@javidx9) videos as come to an end in favor of [olc::PixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine). With that said, I still highly recommend watching the earlier videos and the simple fact that all of this is being done in a Console Window makes it all the more worthwhile.
 
+## Discord
+
+Please reach out to me on Discord:
+
+- [Discord Invite](https://discord.gg/Y8EH5fF6WG)
+
 ## Documentation
 
 Please see [wiki](https://github.com/DualBrain/vbConsoleGameEngine/wiki).
