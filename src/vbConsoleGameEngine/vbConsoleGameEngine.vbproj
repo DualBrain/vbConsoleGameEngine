@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>VbConsoleGameEngine</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+</Project>
