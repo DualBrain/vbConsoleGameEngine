@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LevelMaker</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\javidx9_nesfont8x8.spr" />
+    <None Remove="assets\loztheme.spr" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\javidx9_nesfont8x8.spr">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\loztheme.spr">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\vbConsoleGameEngine\vbConsoleGameEngine.vbproj" />
+  </ItemGroup>
+
+</Project>

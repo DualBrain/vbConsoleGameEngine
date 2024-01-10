@@ -28,9 +28,9 @@ Class RetroArcadeRacer
   Private m_trackDistance As Double = 0.0
 
   Private m_currentLapTime As Double = 0.0
-  Private m_lapTimes As New List(Of Double)
+  Private ReadOnly m_lapTimes As New List(Of Double)
 
-  Private m_track As New List(Of (Curve As Single, Distance As Single))
+  Private ReadOnly m_track As New List(Of (Curve As Single, Distance As Single))
 
   Public Overrides Function OnUserCreate() As Boolean
 

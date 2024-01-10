@@ -43,14 +43,14 @@ Class Demo
 
     'Fill(0, 0, ScreenWidth, ScreenHeight, AscW(" "), 0)
     'For c = 0 To 15
-    '  Fill(0, c * 6, 5, c * 6 + 5, PIXEL_QUARTER, c)
-    '  Fill(6, c * 6, 11, c * 6 + 5, PIXEL_HALF, c)
-    '  Fill(12, c * 6, 17, c * 6 + 5, PIXEL_THREEQUARTERS, c)
-    '  Fill(18, c * 6, 23, c * 6 + 5, PIXEL_SOLID, c)
+    '  Fill(0, c * 6, 5, c * 6 + 5, QUARTER, c)
+    '  Fill(6, c * 6, 11, c * 6 + 5, HALF, c)
+    '  Fill(12, c * 6, 17, c * 6 + 5, THREEQUARTERS, c)
+    '  Fill(18, c * 6, 23, c * 6 + 5, SOLID, c)
 
-    '  Fill(24, c * 6, 29, c * 6 + 5, PIXEL_THREEQUARTERS, c Or BG_WHITE)
-    '  Fill(30, c * 6, 35, c * 6 + 5, PIXEL_HALF, c Or BG_WHITE)
-    '  Fill(36, c * 6, 41, c * 6 + 5, PIXEL_QUARTER, c Or BG_WHITE)
+    '  Fill(24, c * 6, 29, c * 6 + 5, THREEQUARTERS, c Or BgWHITE)
+    '  Fill(30, c * 6, 35, c * 6 + 5, HALF, c Or BgWHITE)
+    '  Fill(36, c * 6, 41, c * 6 + 5, QUARTER, c Or BgWHITE)
 
     'Next
 

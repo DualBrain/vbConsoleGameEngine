@@ -83,7 +83,7 @@ Class Mazes
       End If
 
       ' Are there any neighbours available?
-      If neighbours.Any() Then
+      If neighbours.Count <> 0 Then
         ' Choose one available neighbour at random
         Dim next_cell_dir As Integer = neighbours(m_random.Next(neighbours.Count))
 
