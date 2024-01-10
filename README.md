@@ -16,7 +16,6 @@ Provides a relatively "primitive" pixel drawing and user interface framework for
 - Continue adding / implementing (to reach parity as of 02/07/2018).
 - Publish as a nuget package?
 - Add documentation.
-- Continue adding samples.
 
 *vbConsoleGameEngine* is heavily inspired by [olc::ConsoleGameEngine](https://github.com/OneLoneCoder); specifically the 02/07/2018 version. Even more specifically, I've developed this project while following along with [javidx9](https://www.youtube.com/@javidx9) videos; so very likely that not all features in 02/07/2018 have been implemented at parity.
 
